@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image + Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+
+    <!-- Image Section -->
+    <div class="image-box">
+        <img id="preview" src="pro.jpg">
+    </div>
+
+    <!-- Form Section -->
+    <div class="form-box">
+        <h2>Create Post</h2>
+
+        <form id="postForm">
+            <input type="text" id="title" placeholder="Enter Title" required><br><br>
+
+            <textarea id="content" placeholder="Enter Content" required></textarea><br><br>
+
+            <input type="file" id="imageInput" accept="image/*"><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
